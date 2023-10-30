@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--link to my css-->
+ <link rel="stylesheet" href="./style.css">
+ <!--linking font awesome, for icon libraries-->
+     <script src="https://kit.fontawesome.com/0ab552b6fe.js" crossorigin="anonymous"></script>
+     <!--Bootsrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <title>Bimme's Project Report</title>   
+</head>
+
+<body>
+     <!-- Navbar & Hero Start -->
+     <div class="container-xxl position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><i style="color:#FEA116;">QuZiN</i></h1>
+
+        <!--img src="img/LG.png" alt="Logo" --> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 pe-4">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Menu</a>
+                    <a href="#" class="nav-item nav-link">Contact</a>
+                </div>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button><!--onclick-->
+                <div id="id01" class="modal">
+                  <form class="modal-content animate" action="#" method="POST">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display = 'none'" class="close" title="close">&times;</span>
+                    </div>
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" name="uname" placeholder="Enter Username" required>
+              
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" name="psw" placeholder="Enter Password" required>
+              
+                      <button type="submit">Login</button>
+                      <label>
+                        <input type="checkbox" name="remember" >Remember me</label>
+                    </div>
+              
+                    <div class="container" >
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button><!--onclick-->
+                      <span class="psw">Forgot <a href="#">Password?</a></span>
+                    </div> 
+                  </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Multiple Recipes</h1>
+                        <p class="text-white animated slideInLeft mb-4 pb-2">Find your recipes</p>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                        <img class="img-fluid" src="./images/chaff.jpg" alt="corn n beans">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/puff.jpg" alt="Card image cap" width="300">
+        <div class="card-body">
+          <h5 class="card-title">SUGAR BALLS</h5>
+          <p class="card-text">Ingredients/Procedure</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ONE</li>
+          <li class="list-group-item">TWO</li>
+          <li class="list-group-item">THREE</li>
+        </ul>
+        <div class="card-body">
+          <button>AFRICAN</button>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/koki.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">KOKI</h5>
+          <p class="card-text">Ingredients/Procedure</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ONE</li>
+          <li class="list-group-item">TWO</li>
+          <li class="list-group-item">THREE</li>
+          <li class="list-group-item">TWO</li>
+          
+        </ul>
+        <div class="card-body">
+          <button>AFRICAN</button>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/images.jpg" alt="Card image cap" >
+        <div class="card-body">
+          <h5 class="card-title">IRISH POTATOES</h5>
+          <p class="card-text">SIngredients/Procedure</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ONE</li>
+          <li class="list-group-item">TWO</li>
+          <li class="list-group-item">THREE</li>
+          <li class="list-group-item">TWO</li>
+          <li class="list-group-item">THREE</li>
+        <div class="card-body">
+           <button>AFRICAN</button>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/peanut-soup.jpg" alt="Card image cap" >
+        <div class="card-body">
+          <h5 class="card-title">PEANUT SOUP</h5>
+          <p class="card-text">Ingredients/Procedure</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ONE</li>
+          <li class="list-group-item">TWO</li>
+          <li class="list-group-item">THREE</li>
+          <li class="list-group-item">TWO</li>
+          <li class="list-group-item">THREE</li>
+        </ul>
+        <div class="card-body">
+          <button>AFRICAN</button>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    
+    
+    
+    
+    
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
